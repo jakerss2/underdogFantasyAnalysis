@@ -1526,7 +1526,7 @@ group. From there, we will decide if they made a difference on the
 overall teams performance.</p>
 <div id="team-points-by-strategies" class="section level2">
 <h2>3.1) Team Points by Strategies</h2>
-<p>For the descriptive results, I will use confidence intervals to
+<p>For the descriptive results, we can use confidence intervals to
 explain how some of the strategies work. A common trend among all
 position groups and strategy is that <span class="math inline">\(n\)</span> is a huge number which in turn
 decreases the standard error. Most of the confidence intervals are
@@ -1535,7 +1535,7 @@ fact. As a result, we can estimate each strategy’s average performance
 with extremely high statistical precision. However, this shouldn’t be
 misinterpreted as consistency for individual teams. The standard
 deviation is still a somewhat big number typically around 100, meaning
-due to injuries, player performance, and other football factors teams
+due to injuries, player performance, and other football factors, teams
 can still hugely fall outside of the confidence interval. The narrow
 confidence intervals speak to the ability to understand the average
 outcome, not the results of an individual team.</p>
@@ -1545,39 +1545,39 @@ Drafting the best or highest average scoring strategy doesn’t guarantee
 a good team.</p>
 <div id="a-rb-strategy" class="section level3">
 <h3>3.1a) RB Strategy</h3>
-<p>From all of the strategies, Heavy RB appears to be on top. Heavy RB
+<p>From all of the strategies, Heavy RB appears to be on top. Heavy RB’s
 average score sat around 1,589 points with the next closest strategy
 being Balanced (2 RBs drafted) at a mean of 1,561. Heavy RB also has the
 least amount of <span class="math inline">\(n\)</span> out of any group
-meaning this is the least common draft strategy.</p>
+meaning this is the least common RB draft strategy.</p>
 <p>Zero RB performed the worst with a mean of 1,519 points. The Zero RB
 strategy also has the smallest standard deviation meaning the teams
 performed closer to the mean of 1,519. Hero RB was very close to last as
 well at a mean of 1,523.</p>
 <p>With Heavy RB and Balanced being at the top and Zero and Hero RB
 being at the bottom in mean and confidence intervals, this suggests that
-drafting RB in the top 5 picks was very beneficial. Weak RB being
-somewhat in the middle is somewhat surprising. If taking a higher
+drafting multiple RBs in the first 5 picks was very beneficial. Weak RB
+being somewhat in the middle is somewhat surprising. If taking a higher
 caliber RB in 1-2 didn’t perform quite well, drafting your first RB in
 rounds 3-5 wouldn’t make you assume that it’d do better. Weak RB being
 in the middle suggests that the players going in those rounds
 outperformed their ADP or they were undervalued.</p>
 <p>In section 4.1, ANOVA testing will be used on the strategies to go
-deeper into if these differences are meaningful.</p>
-<div id="jvkwfzulhm" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#jvkwfzulhm table {
+deeper into if these differences are statistically meaningful.</p>
+<div id="zhcqqqpead" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#zhcqqqpead table {
 font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
-#jvkwfzulhm thead, #jvkwfzulhm tbody, #jvkwfzulhm tfoot, #jvkwfzulhm tr, #jvkwfzulhm td, #jvkwfzulhm th {
+#zhcqqqpead thead, #zhcqqqpead tbody, #zhcqqqpead tfoot, #zhcqqqpead tr, #zhcqqqpead td, #zhcqqqpead th {
 border-style: none;
 }
-#jvkwfzulhm p {
+#zhcqqqpead p {
 margin: 0;
 padding: 0;
 }
-#jvkwfzulhm .gt_table {
+#zhcqqqpead .gt_table {
 display: table;
 border-collapse: collapse;
 line-height: normal;
@@ -1602,11 +1602,11 @@ border-left-style: none;
 border-left-width: 2px;
 border-left-color: #D3D3D3;
 }
-#jvkwfzulhm .gt_caption {
+#zhcqqqpead .gt_caption {
 padding-top: 4px;
 padding-bottom: 4px;
 }
-#jvkwfzulhm .gt_title {
+#zhcqqqpead .gt_title {
 color: #333333;
 font-size: 125%;
 font-weight: initial;
@@ -1617,7 +1617,7 @@ padding-right: 5px;
 border-bottom-color: #FFFFFF;
 border-bottom-width: 0;
 }
-#jvkwfzulhm .gt_subtitle {
+#zhcqqqpead .gt_subtitle {
 color: #333333;
 font-size: 85%;
 font-weight: initial;
@@ -1628,7 +1628,7 @@ padding-right: 5px;
 border-top-color: #FFFFFF;
 border-top-width: 0;
 }
-#jvkwfzulhm .gt_heading {
+#zhcqqqpead .gt_heading {
 background-color: #FFFFFF;
 text-align: center;
 border-bottom-color: #FFFFFF;
@@ -1639,12 +1639,12 @@ border-right-style: none;
 border-right-width: 1px;
 border-right-color: #D3D3D3;
 }
-#jvkwfzulhm .gt_bottom_border {
+#zhcqqqpead .gt_bottom_border {
 border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#jvkwfzulhm .gt_col_headings {
+#zhcqqqpead .gt_col_headings {
 border-top-style: solid;
 border-top-width: 2px;
 border-top-color: #D3D3D3;
@@ -1658,7 +1658,7 @@ border-right-style: none;
 border-right-width: 1px;
 border-right-color: #D3D3D3;
 }
-#jvkwfzulhm .gt_col_heading {
+#zhcqqqpead .gt_col_heading {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -1677,7 +1677,7 @@ padding-left: 5px;
 padding-right: 5px;
 overflow-x: hidden;
 }
-#jvkwfzulhm .gt_column_spanner_outer {
+#zhcqqqpead .gt_column_spanner_outer {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -1688,13 +1688,13 @@ padding-bottom: 0;
 padding-left: 4px;
 padding-right: 4px;
 }
-#jvkwfzulhm .gt_column_spanner_outer:first-child {
+#zhcqqqpead .gt_column_spanner_outer:first-child {
 padding-left: 0;
 }
-#jvkwfzulhm .gt_column_spanner_outer:last-child {
+#zhcqqqpead .gt_column_spanner_outer:last-child {
 padding-right: 0;
 }
-#jvkwfzulhm .gt_column_spanner {
+#zhcqqqpead .gt_column_spanner {
 border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
@@ -1705,10 +1705,10 @@ overflow-x: hidden;
 display: inline-block;
 width: 100%;
 }
-#jvkwfzulhm .gt_spanner_row {
+#zhcqqqpead .gt_spanner_row {
 border-bottom-style: hidden;
 }
-#jvkwfzulhm .gt_group_heading {
+#zhcqqqpead .gt_group_heading {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -1733,7 +1733,7 @@ border-right-color: #D3D3D3;
 vertical-align: middle;
 text-align: left;
 }
-#jvkwfzulhm .gt_empty_group_heading {
+#zhcqqqpead .gt_empty_group_heading {
 padding: 0.5px;
 color: #333333;
 background-color: #FFFFFF;
@@ -1747,13 +1747,13 @@ border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 vertical-align: middle;
 }
-#jvkwfzulhm .gt_from_md > :first-child {
+#zhcqqqpead .gt_from_md > :first-child {
 margin-top: 0;
 }
-#jvkwfzulhm .gt_from_md > :last-child {
+#zhcqqqpead .gt_from_md > :last-child {
 margin-bottom: 0;
 }
-#jvkwfzulhm .gt_row {
+#zhcqqqpead .gt_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -1771,7 +1771,7 @@ border-right-color: #D3D3D3;
 vertical-align: middle;
 overflow-x: hidden;
 }
-#jvkwfzulhm .gt_stub {
+#zhcqqqpead .gt_stub {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -1783,7 +1783,7 @@ border-right-color: #D3D3D3;
 padding-left: 5px;
 padding-right: 5px;
 }
-#jvkwfzulhm .gt_stub_row_group {
+#zhcqqqpead .gt_stub_row_group {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -1796,13 +1796,13 @@ padding-left: 5px;
 padding-right: 5px;
 vertical-align: top;
 }
-#jvkwfzulhm .gt_row_group_first td {
+#zhcqqqpead .gt_row_group_first td {
 border-top-width: 2px;
 }
-#jvkwfzulhm .gt_row_group_first th {
+#zhcqqqpead .gt_row_group_first th {
 border-top-width: 2px;
 }
-#jvkwfzulhm .gt_summary_row {
+#zhcqqqpead .gt_summary_row {
 color: #333333;
 background-color: #FFFFFF;
 text-transform: inherit;
@@ -1811,14 +1811,14 @@ padding-bottom: 8px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#jvkwfzulhm .gt_first_summary_row {
+#zhcqqqpead .gt_first_summary_row {
 border-top-style: solid;
 border-top-color: #D3D3D3;
 }
-#jvkwfzulhm .gt_first_summary_row.thick {
+#zhcqqqpead .gt_first_summary_row.thick {
 border-top-width: 2px;
 }
-#jvkwfzulhm .gt_last_summary_row {
+#zhcqqqpead .gt_last_summary_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -1827,7 +1827,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#jvkwfzulhm .gt_grand_summary_row {
+#zhcqqqpead .gt_grand_summary_row {
 color: #333333;
 background-color: #FFFFFF;
 text-transform: inherit;
@@ -1836,7 +1836,7 @@ padding-bottom: 8px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#jvkwfzulhm .gt_first_grand_summary_row {
+#zhcqqqpead .gt_first_grand_summary_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -1845,7 +1845,7 @@ border-top-style: double;
 border-top-width: 6px;
 border-top-color: #D3D3D3;
 }
-#jvkwfzulhm .gt_last_grand_summary_row_top {
+#zhcqqqpead .gt_last_grand_summary_row_top {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -1854,10 +1854,10 @@ border-bottom-style: double;
 border-bottom-width: 6px;
 border-bottom-color: #D3D3D3;
 }
-#jvkwfzulhm .gt_striped {
+#zhcqqqpead .gt_striped {
 background-color: rgba(128, 128, 128, 0.05);
 }
-#jvkwfzulhm .gt_table_body {
+#zhcqqqpead .gt_table_body {
 border-top-style: solid;
 border-top-width: 2px;
 border-top-color: #D3D3D3;
@@ -1865,7 +1865,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#jvkwfzulhm .gt_footnotes {
+#zhcqqqpead .gt_footnotes {
 color: #333333;
 background-color: #FFFFFF;
 border-bottom-style: none;
@@ -1878,7 +1878,7 @@ border-right-style: none;
 border-right-width: 2px;
 border-right-color: #D3D3D3;
 }
-#jvkwfzulhm .gt_footnote {
+#zhcqqqpead .gt_footnote {
 margin: 0px;
 font-size: 90%;
 padding-top: 4px;
@@ -1886,7 +1886,7 @@ padding-bottom: 4px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#jvkwfzulhm .gt_sourcenotes {
+#zhcqqqpead .gt_sourcenotes {
 color: #333333;
 background-color: #FFFFFF;
 border-bottom-style: none;
@@ -1899,64 +1899,64 @@ border-right-style: none;
 border-right-width: 2px;
 border-right-color: #D3D3D3;
 }
-#jvkwfzulhm .gt_sourcenote {
+#zhcqqqpead .gt_sourcenote {
 font-size: 90%;
 padding-top: 4px;
 padding-bottom: 4px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#jvkwfzulhm .gt_left {
+#zhcqqqpead .gt_left {
 text-align: left;
 }
-#jvkwfzulhm .gt_center {
+#zhcqqqpead .gt_center {
 text-align: center;
 }
-#jvkwfzulhm .gt_right {
+#zhcqqqpead .gt_right {
 text-align: right;
 font-variant-numeric: tabular-nums;
 }
-#jvkwfzulhm .gt_font_normal {
+#zhcqqqpead .gt_font_normal {
 font-weight: normal;
 }
-#jvkwfzulhm .gt_font_bold {
+#zhcqqqpead .gt_font_bold {
 font-weight: bold;
 }
-#jvkwfzulhm .gt_font_italic {
+#zhcqqqpead .gt_font_italic {
 font-style: italic;
 }
-#jvkwfzulhm .gt_super {
+#zhcqqqpead .gt_super {
 font-size: 65%;
 }
-#jvkwfzulhm .gt_footnote_marks {
+#zhcqqqpead .gt_footnote_marks {
 font-size: 75%;
 vertical-align: 0.4em;
 position: initial;
 }
-#jvkwfzulhm .gt_asterisk {
+#zhcqqqpead .gt_asterisk {
 font-size: 100%;
 vertical-align: 0;
 }
-#jvkwfzulhm .gt_indent_1 {
+#zhcqqqpead .gt_indent_1 {
 text-indent: 5px;
 }
-#jvkwfzulhm .gt_indent_2 {
+#zhcqqqpead .gt_indent_2 {
 text-indent: 10px;
 }
-#jvkwfzulhm .gt_indent_3 {
+#zhcqqqpead .gt_indent_3 {
 text-indent: 15px;
 }
-#jvkwfzulhm .gt_indent_4 {
+#zhcqqqpead .gt_indent_4 {
 text-indent: 20px;
 }
-#jvkwfzulhm .gt_indent_5 {
+#zhcqqqpead .gt_indent_5 {
 text-indent: 25px;
 }
-#jvkwfzulhm .katex-display {
+#zhcqqqpead .katex-display {
 display: inline-flex !important;
 margin-bottom: 0.75em !important;
 }
-#jvkwfzulhm div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#zhcqqqpead div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
 height: 0px !important;
 }
 </style>
@@ -2041,20 +2041,20 @@ draft three WRs. With Zero and Hero RB being the worst RB draft
 strategies, it makes sense for Heavy WR to perform the worst of the WR
 strategies. Heavy WR averages around to be 1,535 points which is 20
 points less than the next worst which is Balanced.</p>
-<div id="uequzjwxlb" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#uequzjwxlb table {
+<div id="rxzqtcgako" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#rxzqtcgako table {
 font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
-#uequzjwxlb thead, #uequzjwxlb tbody, #uequzjwxlb tfoot, #uequzjwxlb tr, #uequzjwxlb td, #uequzjwxlb th {
+#rxzqtcgako thead, #rxzqtcgako tbody, #rxzqtcgako tfoot, #rxzqtcgako tr, #rxzqtcgako td, #rxzqtcgako th {
 border-style: none;
 }
-#uequzjwxlb p {
+#rxzqtcgako p {
 margin: 0;
 padding: 0;
 }
-#uequzjwxlb .gt_table {
+#rxzqtcgako .gt_table {
 display: table;
 border-collapse: collapse;
 line-height: normal;
@@ -2079,11 +2079,11 @@ border-left-style: none;
 border-left-width: 2px;
 border-left-color: #D3D3D3;
 }
-#uequzjwxlb .gt_caption {
+#rxzqtcgako .gt_caption {
 padding-top: 4px;
 padding-bottom: 4px;
 }
-#uequzjwxlb .gt_title {
+#rxzqtcgako .gt_title {
 color: #333333;
 font-size: 125%;
 font-weight: initial;
@@ -2094,7 +2094,7 @@ padding-right: 5px;
 border-bottom-color: #FFFFFF;
 border-bottom-width: 0;
 }
-#uequzjwxlb .gt_subtitle {
+#rxzqtcgako .gt_subtitle {
 color: #333333;
 font-size: 85%;
 font-weight: initial;
@@ -2105,7 +2105,7 @@ padding-right: 5px;
 border-top-color: #FFFFFF;
 border-top-width: 0;
 }
-#uequzjwxlb .gt_heading {
+#rxzqtcgako .gt_heading {
 background-color: #FFFFFF;
 text-align: center;
 border-bottom-color: #FFFFFF;
@@ -2116,12 +2116,12 @@ border-right-style: none;
 border-right-width: 1px;
 border-right-color: #D3D3D3;
 }
-#uequzjwxlb .gt_bottom_border {
+#rxzqtcgako .gt_bottom_border {
 border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#uequzjwxlb .gt_col_headings {
+#rxzqtcgako .gt_col_headings {
 border-top-style: solid;
 border-top-width: 2px;
 border-top-color: #D3D3D3;
@@ -2135,7 +2135,7 @@ border-right-style: none;
 border-right-width: 1px;
 border-right-color: #D3D3D3;
 }
-#uequzjwxlb .gt_col_heading {
+#rxzqtcgako .gt_col_heading {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -2154,7 +2154,7 @@ padding-left: 5px;
 padding-right: 5px;
 overflow-x: hidden;
 }
-#uequzjwxlb .gt_column_spanner_outer {
+#rxzqtcgako .gt_column_spanner_outer {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -2165,13 +2165,13 @@ padding-bottom: 0;
 padding-left: 4px;
 padding-right: 4px;
 }
-#uequzjwxlb .gt_column_spanner_outer:first-child {
+#rxzqtcgako .gt_column_spanner_outer:first-child {
 padding-left: 0;
 }
-#uequzjwxlb .gt_column_spanner_outer:last-child {
+#rxzqtcgako .gt_column_spanner_outer:last-child {
 padding-right: 0;
 }
-#uequzjwxlb .gt_column_spanner {
+#rxzqtcgako .gt_column_spanner {
 border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
@@ -2182,10 +2182,10 @@ overflow-x: hidden;
 display: inline-block;
 width: 100%;
 }
-#uequzjwxlb .gt_spanner_row {
+#rxzqtcgako .gt_spanner_row {
 border-bottom-style: hidden;
 }
-#uequzjwxlb .gt_group_heading {
+#rxzqtcgako .gt_group_heading {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -2210,7 +2210,7 @@ border-right-color: #D3D3D3;
 vertical-align: middle;
 text-align: left;
 }
-#uequzjwxlb .gt_empty_group_heading {
+#rxzqtcgako .gt_empty_group_heading {
 padding: 0.5px;
 color: #333333;
 background-color: #FFFFFF;
@@ -2224,13 +2224,13 @@ border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 vertical-align: middle;
 }
-#uequzjwxlb .gt_from_md > :first-child {
+#rxzqtcgako .gt_from_md > :first-child {
 margin-top: 0;
 }
-#uequzjwxlb .gt_from_md > :last-child {
+#rxzqtcgako .gt_from_md > :last-child {
 margin-bottom: 0;
 }
-#uequzjwxlb .gt_row {
+#rxzqtcgako .gt_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -2248,7 +2248,7 @@ border-right-color: #D3D3D3;
 vertical-align: middle;
 overflow-x: hidden;
 }
-#uequzjwxlb .gt_stub {
+#rxzqtcgako .gt_stub {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -2260,7 +2260,7 @@ border-right-color: #D3D3D3;
 padding-left: 5px;
 padding-right: 5px;
 }
-#uequzjwxlb .gt_stub_row_group {
+#rxzqtcgako .gt_stub_row_group {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -2273,13 +2273,13 @@ padding-left: 5px;
 padding-right: 5px;
 vertical-align: top;
 }
-#uequzjwxlb .gt_row_group_first td {
+#rxzqtcgako .gt_row_group_first td {
 border-top-width: 2px;
 }
-#uequzjwxlb .gt_row_group_first th {
+#rxzqtcgako .gt_row_group_first th {
 border-top-width: 2px;
 }
-#uequzjwxlb .gt_summary_row {
+#rxzqtcgako .gt_summary_row {
 color: #333333;
 background-color: #FFFFFF;
 text-transform: inherit;
@@ -2288,14 +2288,14 @@ padding-bottom: 8px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#uequzjwxlb .gt_first_summary_row {
+#rxzqtcgako .gt_first_summary_row {
 border-top-style: solid;
 border-top-color: #D3D3D3;
 }
-#uequzjwxlb .gt_first_summary_row.thick {
+#rxzqtcgako .gt_first_summary_row.thick {
 border-top-width: 2px;
 }
-#uequzjwxlb .gt_last_summary_row {
+#rxzqtcgako .gt_last_summary_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -2304,7 +2304,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#uequzjwxlb .gt_grand_summary_row {
+#rxzqtcgako .gt_grand_summary_row {
 color: #333333;
 background-color: #FFFFFF;
 text-transform: inherit;
@@ -2313,7 +2313,7 @@ padding-bottom: 8px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#uequzjwxlb .gt_first_grand_summary_row {
+#rxzqtcgako .gt_first_grand_summary_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -2322,7 +2322,7 @@ border-top-style: double;
 border-top-width: 6px;
 border-top-color: #D3D3D3;
 }
-#uequzjwxlb .gt_last_grand_summary_row_top {
+#rxzqtcgako .gt_last_grand_summary_row_top {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -2331,10 +2331,10 @@ border-bottom-style: double;
 border-bottom-width: 6px;
 border-bottom-color: #D3D3D3;
 }
-#uequzjwxlb .gt_striped {
+#rxzqtcgako .gt_striped {
 background-color: rgba(128, 128, 128, 0.05);
 }
-#uequzjwxlb .gt_table_body {
+#rxzqtcgako .gt_table_body {
 border-top-style: solid;
 border-top-width: 2px;
 border-top-color: #D3D3D3;
@@ -2342,7 +2342,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#uequzjwxlb .gt_footnotes {
+#rxzqtcgako .gt_footnotes {
 color: #333333;
 background-color: #FFFFFF;
 border-bottom-style: none;
@@ -2355,7 +2355,7 @@ border-right-style: none;
 border-right-width: 2px;
 border-right-color: #D3D3D3;
 }
-#uequzjwxlb .gt_footnote {
+#rxzqtcgako .gt_footnote {
 margin: 0px;
 font-size: 90%;
 padding-top: 4px;
@@ -2363,7 +2363,7 @@ padding-bottom: 4px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#uequzjwxlb .gt_sourcenotes {
+#rxzqtcgako .gt_sourcenotes {
 color: #333333;
 background-color: #FFFFFF;
 border-bottom-style: none;
@@ -2376,64 +2376,64 @@ border-right-style: none;
 border-right-width: 2px;
 border-right-color: #D3D3D3;
 }
-#uequzjwxlb .gt_sourcenote {
+#rxzqtcgako .gt_sourcenote {
 font-size: 90%;
 padding-top: 4px;
 padding-bottom: 4px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#uequzjwxlb .gt_left {
+#rxzqtcgako .gt_left {
 text-align: left;
 }
-#uequzjwxlb .gt_center {
+#rxzqtcgako .gt_center {
 text-align: center;
 }
-#uequzjwxlb .gt_right {
+#rxzqtcgako .gt_right {
 text-align: right;
 font-variant-numeric: tabular-nums;
 }
-#uequzjwxlb .gt_font_normal {
+#rxzqtcgako .gt_font_normal {
 font-weight: normal;
 }
-#uequzjwxlb .gt_font_bold {
+#rxzqtcgako .gt_font_bold {
 font-weight: bold;
 }
-#uequzjwxlb .gt_font_italic {
+#rxzqtcgako .gt_font_italic {
 font-style: italic;
 }
-#uequzjwxlb .gt_super {
+#rxzqtcgako .gt_super {
 font-size: 65%;
 }
-#uequzjwxlb .gt_footnote_marks {
+#rxzqtcgako .gt_footnote_marks {
 font-size: 75%;
 vertical-align: 0.4em;
 position: initial;
 }
-#uequzjwxlb .gt_asterisk {
+#rxzqtcgako .gt_asterisk {
 font-size: 100%;
 vertical-align: 0;
 }
-#uequzjwxlb .gt_indent_1 {
+#rxzqtcgako .gt_indent_1 {
 text-indent: 5px;
 }
-#uequzjwxlb .gt_indent_2 {
+#rxzqtcgako .gt_indent_2 {
 text-indent: 10px;
 }
-#uequzjwxlb .gt_indent_3 {
+#rxzqtcgako .gt_indent_3 {
 text-indent: 15px;
 }
-#uequzjwxlb .gt_indent_4 {
+#rxzqtcgako .gt_indent_4 {
 text-indent: 20px;
 }
-#uequzjwxlb .gt_indent_5 {
+#rxzqtcgako .gt_indent_5 {
 text-indent: 25px;
 }
-#uequzjwxlb .katex-display {
+#rxzqtcgako .katex-display {
 display: inline-flex !important;
 margin-bottom: 0.75em !important;
 }
-#uequzjwxlb div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#rxzqtcgako div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
 height: 0px !important;
 }
 </style>
@@ -2506,22 +2506,23 @@ one point of 1,542. The confidence intervals behave in the same way
 being extremely close to one another. Due to all of them being so close
 together, this would suggest that QB strategy may not be a huge emphasis
 on the roster’s total point outcome. Perhaps a more interesting insight
-is determining the number of QBs a team should draft to perform
-better.</p>
-<div id="riefshipry" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#riefshipry table {
+is determining the number of QBs a team should draft to perform better.
+An ANOVA analysis will determine if there are statistically siginificant
+differences between the groups.</p>
+<div id="dteztuqonj" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#dteztuqonj table {
 font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
-#riefshipry thead, #riefshipry tbody, #riefshipry tfoot, #riefshipry tr, #riefshipry td, #riefshipry th {
+#dteztuqonj thead, #dteztuqonj tbody, #dteztuqonj tfoot, #dteztuqonj tr, #dteztuqonj td, #dteztuqonj th {
 border-style: none;
 }
-#riefshipry p {
+#dteztuqonj p {
 margin: 0;
 padding: 0;
 }
-#riefshipry .gt_table {
+#dteztuqonj .gt_table {
 display: table;
 border-collapse: collapse;
 line-height: normal;
@@ -2546,11 +2547,11 @@ border-left-style: none;
 border-left-width: 2px;
 border-left-color: #D3D3D3;
 }
-#riefshipry .gt_caption {
+#dteztuqonj .gt_caption {
 padding-top: 4px;
 padding-bottom: 4px;
 }
-#riefshipry .gt_title {
+#dteztuqonj .gt_title {
 color: #333333;
 font-size: 125%;
 font-weight: initial;
@@ -2561,7 +2562,7 @@ padding-right: 5px;
 border-bottom-color: #FFFFFF;
 border-bottom-width: 0;
 }
-#riefshipry .gt_subtitle {
+#dteztuqonj .gt_subtitle {
 color: #333333;
 font-size: 85%;
 font-weight: initial;
@@ -2572,7 +2573,7 @@ padding-right: 5px;
 border-top-color: #FFFFFF;
 border-top-width: 0;
 }
-#riefshipry .gt_heading {
+#dteztuqonj .gt_heading {
 background-color: #FFFFFF;
 text-align: center;
 border-bottom-color: #FFFFFF;
@@ -2583,12 +2584,12 @@ border-right-style: none;
 border-right-width: 1px;
 border-right-color: #D3D3D3;
 }
-#riefshipry .gt_bottom_border {
+#dteztuqonj .gt_bottom_border {
 border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#riefshipry .gt_col_headings {
+#dteztuqonj .gt_col_headings {
 border-top-style: solid;
 border-top-width: 2px;
 border-top-color: #D3D3D3;
@@ -2602,7 +2603,7 @@ border-right-style: none;
 border-right-width: 1px;
 border-right-color: #D3D3D3;
 }
-#riefshipry .gt_col_heading {
+#dteztuqonj .gt_col_heading {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -2621,7 +2622,7 @@ padding-left: 5px;
 padding-right: 5px;
 overflow-x: hidden;
 }
-#riefshipry .gt_column_spanner_outer {
+#dteztuqonj .gt_column_spanner_outer {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -2632,13 +2633,13 @@ padding-bottom: 0;
 padding-left: 4px;
 padding-right: 4px;
 }
-#riefshipry .gt_column_spanner_outer:first-child {
+#dteztuqonj .gt_column_spanner_outer:first-child {
 padding-left: 0;
 }
-#riefshipry .gt_column_spanner_outer:last-child {
+#dteztuqonj .gt_column_spanner_outer:last-child {
 padding-right: 0;
 }
-#riefshipry .gt_column_spanner {
+#dteztuqonj .gt_column_spanner {
 border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
@@ -2649,10 +2650,10 @@ overflow-x: hidden;
 display: inline-block;
 width: 100%;
 }
-#riefshipry .gt_spanner_row {
+#dteztuqonj .gt_spanner_row {
 border-bottom-style: hidden;
 }
-#riefshipry .gt_group_heading {
+#dteztuqonj .gt_group_heading {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -2677,7 +2678,7 @@ border-right-color: #D3D3D3;
 vertical-align: middle;
 text-align: left;
 }
-#riefshipry .gt_empty_group_heading {
+#dteztuqonj .gt_empty_group_heading {
 padding: 0.5px;
 color: #333333;
 background-color: #FFFFFF;
@@ -2691,13 +2692,13 @@ border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 vertical-align: middle;
 }
-#riefshipry .gt_from_md > :first-child {
+#dteztuqonj .gt_from_md > :first-child {
 margin-top: 0;
 }
-#riefshipry .gt_from_md > :last-child {
+#dteztuqonj .gt_from_md > :last-child {
 margin-bottom: 0;
 }
-#riefshipry .gt_row {
+#dteztuqonj .gt_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -2715,7 +2716,7 @@ border-right-color: #D3D3D3;
 vertical-align: middle;
 overflow-x: hidden;
 }
-#riefshipry .gt_stub {
+#dteztuqonj .gt_stub {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -2727,7 +2728,7 @@ border-right-color: #D3D3D3;
 padding-left: 5px;
 padding-right: 5px;
 }
-#riefshipry .gt_stub_row_group {
+#dteztuqonj .gt_stub_row_group {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -2740,13 +2741,13 @@ padding-left: 5px;
 padding-right: 5px;
 vertical-align: top;
 }
-#riefshipry .gt_row_group_first td {
+#dteztuqonj .gt_row_group_first td {
 border-top-width: 2px;
 }
-#riefshipry .gt_row_group_first th {
+#dteztuqonj .gt_row_group_first th {
 border-top-width: 2px;
 }
-#riefshipry .gt_summary_row {
+#dteztuqonj .gt_summary_row {
 color: #333333;
 background-color: #FFFFFF;
 text-transform: inherit;
@@ -2755,14 +2756,14 @@ padding-bottom: 8px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#riefshipry .gt_first_summary_row {
+#dteztuqonj .gt_first_summary_row {
 border-top-style: solid;
 border-top-color: #D3D3D3;
 }
-#riefshipry .gt_first_summary_row.thick {
+#dteztuqonj .gt_first_summary_row.thick {
 border-top-width: 2px;
 }
-#riefshipry .gt_last_summary_row {
+#dteztuqonj .gt_last_summary_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -2771,7 +2772,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#riefshipry .gt_grand_summary_row {
+#dteztuqonj .gt_grand_summary_row {
 color: #333333;
 background-color: #FFFFFF;
 text-transform: inherit;
@@ -2780,7 +2781,7 @@ padding-bottom: 8px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#riefshipry .gt_first_grand_summary_row {
+#dteztuqonj .gt_first_grand_summary_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -2789,7 +2790,7 @@ border-top-style: double;
 border-top-width: 6px;
 border-top-color: #D3D3D3;
 }
-#riefshipry .gt_last_grand_summary_row_top {
+#dteztuqonj .gt_last_grand_summary_row_top {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -2798,10 +2799,10 @@ border-bottom-style: double;
 border-bottom-width: 6px;
 border-bottom-color: #D3D3D3;
 }
-#riefshipry .gt_striped {
+#dteztuqonj .gt_striped {
 background-color: rgba(128, 128, 128, 0.05);
 }
-#riefshipry .gt_table_body {
+#dteztuqonj .gt_table_body {
 border-top-style: solid;
 border-top-width: 2px;
 border-top-color: #D3D3D3;
@@ -2809,7 +2810,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#riefshipry .gt_footnotes {
+#dteztuqonj .gt_footnotes {
 color: #333333;
 background-color: #FFFFFF;
 border-bottom-style: none;
@@ -2822,7 +2823,7 @@ border-right-style: none;
 border-right-width: 2px;
 border-right-color: #D3D3D3;
 }
-#riefshipry .gt_footnote {
+#dteztuqonj .gt_footnote {
 margin: 0px;
 font-size: 90%;
 padding-top: 4px;
@@ -2830,7 +2831,7 @@ padding-bottom: 4px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#riefshipry .gt_sourcenotes {
+#dteztuqonj .gt_sourcenotes {
 color: #333333;
 background-color: #FFFFFF;
 border-bottom-style: none;
@@ -2843,64 +2844,64 @@ border-right-style: none;
 border-right-width: 2px;
 border-right-color: #D3D3D3;
 }
-#riefshipry .gt_sourcenote {
+#dteztuqonj .gt_sourcenote {
 font-size: 90%;
 padding-top: 4px;
 padding-bottom: 4px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#riefshipry .gt_left {
+#dteztuqonj .gt_left {
 text-align: left;
 }
-#riefshipry .gt_center {
+#dteztuqonj .gt_center {
 text-align: center;
 }
-#riefshipry .gt_right {
+#dteztuqonj .gt_right {
 text-align: right;
 font-variant-numeric: tabular-nums;
 }
-#riefshipry .gt_font_normal {
+#dteztuqonj .gt_font_normal {
 font-weight: normal;
 }
-#riefshipry .gt_font_bold {
+#dteztuqonj .gt_font_bold {
 font-weight: bold;
 }
-#riefshipry .gt_font_italic {
+#dteztuqonj .gt_font_italic {
 font-style: italic;
 }
-#riefshipry .gt_super {
+#dteztuqonj .gt_super {
 font-size: 65%;
 }
-#riefshipry .gt_footnote_marks {
+#dteztuqonj .gt_footnote_marks {
 font-size: 75%;
 vertical-align: 0.4em;
 position: initial;
 }
-#riefshipry .gt_asterisk {
+#dteztuqonj .gt_asterisk {
 font-size: 100%;
 vertical-align: 0;
 }
-#riefshipry .gt_indent_1 {
+#dteztuqonj .gt_indent_1 {
 text-indent: 5px;
 }
-#riefshipry .gt_indent_2 {
+#dteztuqonj .gt_indent_2 {
 text-indent: 10px;
 }
-#riefshipry .gt_indent_3 {
+#dteztuqonj .gt_indent_3 {
 text-indent: 15px;
 }
-#riefshipry .gt_indent_4 {
+#dteztuqonj .gt_indent_4 {
 text-indent: 20px;
 }
-#riefshipry .gt_indent_5 {
+#dteztuqonj .gt_indent_5 {
 text-indent: 25px;
 }
-#riefshipry .katex-display {
+#dteztuqonj .katex-display {
 display: inline-flex !important;
 margin-bottom: 0.75em !important;
 }
-#riefshipry div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#dteztuqonj div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
 height: 0px !important;
 }
 </style>
@@ -2957,20 +2958,20 @@ bigger difference than QB strategies. Drafting a late TE averaged out to
 be around 1,556 with Mid and Elite following behind by about 20ish
 points. with late TE performing better, it may suggest that there is a
 meaningful difference between TE strategies.</p>
-<div id="tjcvaqgzvf" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#tjcvaqgzvf table {
+<div id="orfibnsnts" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#orfibnsnts table {
 font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
-#tjcvaqgzvf thead, #tjcvaqgzvf tbody, #tjcvaqgzvf tfoot, #tjcvaqgzvf tr, #tjcvaqgzvf td, #tjcvaqgzvf th {
+#orfibnsnts thead, #orfibnsnts tbody, #orfibnsnts tfoot, #orfibnsnts tr, #orfibnsnts td, #orfibnsnts th {
 border-style: none;
 }
-#tjcvaqgzvf p {
+#orfibnsnts p {
 margin: 0;
 padding: 0;
 }
-#tjcvaqgzvf .gt_table {
+#orfibnsnts .gt_table {
 display: table;
 border-collapse: collapse;
 line-height: normal;
@@ -2995,11 +2996,11 @@ border-left-style: none;
 border-left-width: 2px;
 border-left-color: #D3D3D3;
 }
-#tjcvaqgzvf .gt_caption {
+#orfibnsnts .gt_caption {
 padding-top: 4px;
 padding-bottom: 4px;
 }
-#tjcvaqgzvf .gt_title {
+#orfibnsnts .gt_title {
 color: #333333;
 font-size: 125%;
 font-weight: initial;
@@ -3010,7 +3011,7 @@ padding-right: 5px;
 border-bottom-color: #FFFFFF;
 border-bottom-width: 0;
 }
-#tjcvaqgzvf .gt_subtitle {
+#orfibnsnts .gt_subtitle {
 color: #333333;
 font-size: 85%;
 font-weight: initial;
@@ -3021,7 +3022,7 @@ padding-right: 5px;
 border-top-color: #FFFFFF;
 border-top-width: 0;
 }
-#tjcvaqgzvf .gt_heading {
+#orfibnsnts .gt_heading {
 background-color: #FFFFFF;
 text-align: center;
 border-bottom-color: #FFFFFF;
@@ -3032,12 +3033,12 @@ border-right-style: none;
 border-right-width: 1px;
 border-right-color: #D3D3D3;
 }
-#tjcvaqgzvf .gt_bottom_border {
+#orfibnsnts .gt_bottom_border {
 border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#tjcvaqgzvf .gt_col_headings {
+#orfibnsnts .gt_col_headings {
 border-top-style: solid;
 border-top-width: 2px;
 border-top-color: #D3D3D3;
@@ -3051,7 +3052,7 @@ border-right-style: none;
 border-right-width: 1px;
 border-right-color: #D3D3D3;
 }
-#tjcvaqgzvf .gt_col_heading {
+#orfibnsnts .gt_col_heading {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -3070,7 +3071,7 @@ padding-left: 5px;
 padding-right: 5px;
 overflow-x: hidden;
 }
-#tjcvaqgzvf .gt_column_spanner_outer {
+#orfibnsnts .gt_column_spanner_outer {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -3081,13 +3082,13 @@ padding-bottom: 0;
 padding-left: 4px;
 padding-right: 4px;
 }
-#tjcvaqgzvf .gt_column_spanner_outer:first-child {
+#orfibnsnts .gt_column_spanner_outer:first-child {
 padding-left: 0;
 }
-#tjcvaqgzvf .gt_column_spanner_outer:last-child {
+#orfibnsnts .gt_column_spanner_outer:last-child {
 padding-right: 0;
 }
-#tjcvaqgzvf .gt_column_spanner {
+#orfibnsnts .gt_column_spanner {
 border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
@@ -3098,10 +3099,10 @@ overflow-x: hidden;
 display: inline-block;
 width: 100%;
 }
-#tjcvaqgzvf .gt_spanner_row {
+#orfibnsnts .gt_spanner_row {
 border-bottom-style: hidden;
 }
-#tjcvaqgzvf .gt_group_heading {
+#orfibnsnts .gt_group_heading {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -3126,7 +3127,7 @@ border-right-color: #D3D3D3;
 vertical-align: middle;
 text-align: left;
 }
-#tjcvaqgzvf .gt_empty_group_heading {
+#orfibnsnts .gt_empty_group_heading {
 padding: 0.5px;
 color: #333333;
 background-color: #FFFFFF;
@@ -3140,13 +3141,13 @@ border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 vertical-align: middle;
 }
-#tjcvaqgzvf .gt_from_md > :first-child {
+#orfibnsnts .gt_from_md > :first-child {
 margin-top: 0;
 }
-#tjcvaqgzvf .gt_from_md > :last-child {
+#orfibnsnts .gt_from_md > :last-child {
 margin-bottom: 0;
 }
-#tjcvaqgzvf .gt_row {
+#orfibnsnts .gt_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -3164,7 +3165,7 @@ border-right-color: #D3D3D3;
 vertical-align: middle;
 overflow-x: hidden;
 }
-#tjcvaqgzvf .gt_stub {
+#orfibnsnts .gt_stub {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -3176,7 +3177,7 @@ border-right-color: #D3D3D3;
 padding-left: 5px;
 padding-right: 5px;
 }
-#tjcvaqgzvf .gt_stub_row_group {
+#orfibnsnts .gt_stub_row_group {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -3189,13 +3190,13 @@ padding-left: 5px;
 padding-right: 5px;
 vertical-align: top;
 }
-#tjcvaqgzvf .gt_row_group_first td {
+#orfibnsnts .gt_row_group_first td {
 border-top-width: 2px;
 }
-#tjcvaqgzvf .gt_row_group_first th {
+#orfibnsnts .gt_row_group_first th {
 border-top-width: 2px;
 }
-#tjcvaqgzvf .gt_summary_row {
+#orfibnsnts .gt_summary_row {
 color: #333333;
 background-color: #FFFFFF;
 text-transform: inherit;
@@ -3204,14 +3205,14 @@ padding-bottom: 8px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#tjcvaqgzvf .gt_first_summary_row {
+#orfibnsnts .gt_first_summary_row {
 border-top-style: solid;
 border-top-color: #D3D3D3;
 }
-#tjcvaqgzvf .gt_first_summary_row.thick {
+#orfibnsnts .gt_first_summary_row.thick {
 border-top-width: 2px;
 }
-#tjcvaqgzvf .gt_last_summary_row {
+#orfibnsnts .gt_last_summary_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -3220,7 +3221,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#tjcvaqgzvf .gt_grand_summary_row {
+#orfibnsnts .gt_grand_summary_row {
 color: #333333;
 background-color: #FFFFFF;
 text-transform: inherit;
@@ -3229,7 +3230,7 @@ padding-bottom: 8px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#tjcvaqgzvf .gt_first_grand_summary_row {
+#orfibnsnts .gt_first_grand_summary_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -3238,7 +3239,7 @@ border-top-style: double;
 border-top-width: 6px;
 border-top-color: #D3D3D3;
 }
-#tjcvaqgzvf .gt_last_grand_summary_row_top {
+#orfibnsnts .gt_last_grand_summary_row_top {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -3247,10 +3248,10 @@ border-bottom-style: double;
 border-bottom-width: 6px;
 border-bottom-color: #D3D3D3;
 }
-#tjcvaqgzvf .gt_striped {
+#orfibnsnts .gt_striped {
 background-color: rgba(128, 128, 128, 0.05);
 }
-#tjcvaqgzvf .gt_table_body {
+#orfibnsnts .gt_table_body {
 border-top-style: solid;
 border-top-width: 2px;
 border-top-color: #D3D3D3;
@@ -3258,7 +3259,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#tjcvaqgzvf .gt_footnotes {
+#orfibnsnts .gt_footnotes {
 color: #333333;
 background-color: #FFFFFF;
 border-bottom-style: none;
@@ -3271,7 +3272,7 @@ border-right-style: none;
 border-right-width: 2px;
 border-right-color: #D3D3D3;
 }
-#tjcvaqgzvf .gt_footnote {
+#orfibnsnts .gt_footnote {
 margin: 0px;
 font-size: 90%;
 padding-top: 4px;
@@ -3279,7 +3280,7 @@ padding-bottom: 4px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#tjcvaqgzvf .gt_sourcenotes {
+#orfibnsnts .gt_sourcenotes {
 color: #333333;
 background-color: #FFFFFF;
 border-bottom-style: none;
@@ -3292,64 +3293,64 @@ border-right-style: none;
 border-right-width: 2px;
 border-right-color: #D3D3D3;
 }
-#tjcvaqgzvf .gt_sourcenote {
+#orfibnsnts .gt_sourcenote {
 font-size: 90%;
 padding-top: 4px;
 padding-bottom: 4px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#tjcvaqgzvf .gt_left {
+#orfibnsnts .gt_left {
 text-align: left;
 }
-#tjcvaqgzvf .gt_center {
+#orfibnsnts .gt_center {
 text-align: center;
 }
-#tjcvaqgzvf .gt_right {
+#orfibnsnts .gt_right {
 text-align: right;
 font-variant-numeric: tabular-nums;
 }
-#tjcvaqgzvf .gt_font_normal {
+#orfibnsnts .gt_font_normal {
 font-weight: normal;
 }
-#tjcvaqgzvf .gt_font_bold {
+#orfibnsnts .gt_font_bold {
 font-weight: bold;
 }
-#tjcvaqgzvf .gt_font_italic {
+#orfibnsnts .gt_font_italic {
 font-style: italic;
 }
-#tjcvaqgzvf .gt_super {
+#orfibnsnts .gt_super {
 font-size: 65%;
 }
-#tjcvaqgzvf .gt_footnote_marks {
+#orfibnsnts .gt_footnote_marks {
 font-size: 75%;
 vertical-align: 0.4em;
 position: initial;
 }
-#tjcvaqgzvf .gt_asterisk {
+#orfibnsnts .gt_asterisk {
 font-size: 100%;
 vertical-align: 0;
 }
-#tjcvaqgzvf .gt_indent_1 {
+#orfibnsnts .gt_indent_1 {
 text-indent: 5px;
 }
-#tjcvaqgzvf .gt_indent_2 {
+#orfibnsnts .gt_indent_2 {
 text-indent: 10px;
 }
-#tjcvaqgzvf .gt_indent_3 {
+#orfibnsnts .gt_indent_3 {
 text-indent: 15px;
 }
-#tjcvaqgzvf .gt_indent_4 {
+#orfibnsnts .gt_indent_4 {
 text-indent: 20px;
 }
-#tjcvaqgzvf .gt_indent_5 {
+#orfibnsnts .gt_indent_5 {
 text-indent: 25px;
 }
-#tjcvaqgzvf .katex-display {
+#orfibnsnts .katex-display {
 display: inline-flex !important;
 margin-bottom: 0.75em !important;
 }
-#tjcvaqgzvf div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#orfibnsnts div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
 height: 0px !important;
 }
 </style>
@@ -3545,20 +3546,20 @@ stack by around an average of 20 points. QB1-RB2 teams under performed
 non-stacking teams by only 3 points. With most of the popular stacking
 strategies showing to outperform non-stacking teams, it could be said
 that stacking is beneficial to roster points.</p>
-<div id="mtiqgghtwd" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#mtiqgghtwd table {
+<div id="iciqysgwar" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#iciqysgwar table {
 font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
-#mtiqgghtwd thead, #mtiqgghtwd tbody, #mtiqgghtwd tfoot, #mtiqgghtwd tr, #mtiqgghtwd td, #mtiqgghtwd th {
+#iciqysgwar thead, #iciqysgwar tbody, #iciqysgwar tfoot, #iciqysgwar tr, #iciqysgwar td, #iciqysgwar th {
 border-style: none;
 }
-#mtiqgghtwd p {
+#iciqysgwar p {
 margin: 0;
 padding: 0;
 }
-#mtiqgghtwd .gt_table {
+#iciqysgwar .gt_table {
 display: table;
 border-collapse: collapse;
 line-height: normal;
@@ -3583,11 +3584,11 @@ border-left-style: none;
 border-left-width: 2px;
 border-left-color: #D3D3D3;
 }
-#mtiqgghtwd .gt_caption {
+#iciqysgwar .gt_caption {
 padding-top: 4px;
 padding-bottom: 4px;
 }
-#mtiqgghtwd .gt_title {
+#iciqysgwar .gt_title {
 color: #333333;
 font-size: 125%;
 font-weight: initial;
@@ -3598,7 +3599,7 @@ padding-right: 5px;
 border-bottom-color: #FFFFFF;
 border-bottom-width: 0;
 }
-#mtiqgghtwd .gt_subtitle {
+#iciqysgwar .gt_subtitle {
 color: #333333;
 font-size: 85%;
 font-weight: initial;
@@ -3609,7 +3610,7 @@ padding-right: 5px;
 border-top-color: #FFFFFF;
 border-top-width: 0;
 }
-#mtiqgghtwd .gt_heading {
+#iciqysgwar .gt_heading {
 background-color: #FFFFFF;
 text-align: center;
 border-bottom-color: #FFFFFF;
@@ -3620,12 +3621,12 @@ border-right-style: none;
 border-right-width: 1px;
 border-right-color: #D3D3D3;
 }
-#mtiqgghtwd .gt_bottom_border {
+#iciqysgwar .gt_bottom_border {
 border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#mtiqgghtwd .gt_col_headings {
+#iciqysgwar .gt_col_headings {
 border-top-style: solid;
 border-top-width: 2px;
 border-top-color: #D3D3D3;
@@ -3639,7 +3640,7 @@ border-right-style: none;
 border-right-width: 1px;
 border-right-color: #D3D3D3;
 }
-#mtiqgghtwd .gt_col_heading {
+#iciqysgwar .gt_col_heading {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -3658,7 +3659,7 @@ padding-left: 5px;
 padding-right: 5px;
 overflow-x: hidden;
 }
-#mtiqgghtwd .gt_column_spanner_outer {
+#iciqysgwar .gt_column_spanner_outer {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -3669,13 +3670,13 @@ padding-bottom: 0;
 padding-left: 4px;
 padding-right: 4px;
 }
-#mtiqgghtwd .gt_column_spanner_outer:first-child {
+#iciqysgwar .gt_column_spanner_outer:first-child {
 padding-left: 0;
 }
-#mtiqgghtwd .gt_column_spanner_outer:last-child {
+#iciqysgwar .gt_column_spanner_outer:last-child {
 padding-right: 0;
 }
-#mtiqgghtwd .gt_column_spanner {
+#iciqysgwar .gt_column_spanner {
 border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
@@ -3686,10 +3687,10 @@ overflow-x: hidden;
 display: inline-block;
 width: 100%;
 }
-#mtiqgghtwd .gt_spanner_row {
+#iciqysgwar .gt_spanner_row {
 border-bottom-style: hidden;
 }
-#mtiqgghtwd .gt_group_heading {
+#iciqysgwar .gt_group_heading {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -3714,7 +3715,7 @@ border-right-color: #D3D3D3;
 vertical-align: middle;
 text-align: left;
 }
-#mtiqgghtwd .gt_empty_group_heading {
+#iciqysgwar .gt_empty_group_heading {
 padding: 0.5px;
 color: #333333;
 background-color: #FFFFFF;
@@ -3728,13 +3729,13 @@ border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 vertical-align: middle;
 }
-#mtiqgghtwd .gt_from_md > :first-child {
+#iciqysgwar .gt_from_md > :first-child {
 margin-top: 0;
 }
-#mtiqgghtwd .gt_from_md > :last-child {
+#iciqysgwar .gt_from_md > :last-child {
 margin-bottom: 0;
 }
-#mtiqgghtwd .gt_row {
+#iciqysgwar .gt_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -3752,7 +3753,7 @@ border-right-color: #D3D3D3;
 vertical-align: middle;
 overflow-x: hidden;
 }
-#mtiqgghtwd .gt_stub {
+#iciqysgwar .gt_stub {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -3764,7 +3765,7 @@ border-right-color: #D3D3D3;
 padding-left: 5px;
 padding-right: 5px;
 }
-#mtiqgghtwd .gt_stub_row_group {
+#iciqysgwar .gt_stub_row_group {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -3777,13 +3778,13 @@ padding-left: 5px;
 padding-right: 5px;
 vertical-align: top;
 }
-#mtiqgghtwd .gt_row_group_first td {
+#iciqysgwar .gt_row_group_first td {
 border-top-width: 2px;
 }
-#mtiqgghtwd .gt_row_group_first th {
+#iciqysgwar .gt_row_group_first th {
 border-top-width: 2px;
 }
-#mtiqgghtwd .gt_summary_row {
+#iciqysgwar .gt_summary_row {
 color: #333333;
 background-color: #FFFFFF;
 text-transform: inherit;
@@ -3792,14 +3793,14 @@ padding-bottom: 8px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#mtiqgghtwd .gt_first_summary_row {
+#iciqysgwar .gt_first_summary_row {
 border-top-style: solid;
 border-top-color: #D3D3D3;
 }
-#mtiqgghtwd .gt_first_summary_row.thick {
+#iciqysgwar .gt_first_summary_row.thick {
 border-top-width: 2px;
 }
-#mtiqgghtwd .gt_last_summary_row {
+#iciqysgwar .gt_last_summary_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -3808,7 +3809,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#mtiqgghtwd .gt_grand_summary_row {
+#iciqysgwar .gt_grand_summary_row {
 color: #333333;
 background-color: #FFFFFF;
 text-transform: inherit;
@@ -3817,7 +3818,7 @@ padding-bottom: 8px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#mtiqgghtwd .gt_first_grand_summary_row {
+#iciqysgwar .gt_first_grand_summary_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -3826,7 +3827,7 @@ border-top-style: double;
 border-top-width: 6px;
 border-top-color: #D3D3D3;
 }
-#mtiqgghtwd .gt_last_grand_summary_row_top {
+#iciqysgwar .gt_last_grand_summary_row_top {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -3835,10 +3836,10 @@ border-bottom-style: double;
 border-bottom-width: 6px;
 border-bottom-color: #D3D3D3;
 }
-#mtiqgghtwd .gt_striped {
+#iciqysgwar .gt_striped {
 background-color: rgba(128, 128, 128, 0.05);
 }
-#mtiqgghtwd .gt_table_body {
+#iciqysgwar .gt_table_body {
 border-top-style: solid;
 border-top-width: 2px;
 border-top-color: #D3D3D3;
@@ -3846,7 +3847,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#mtiqgghtwd .gt_footnotes {
+#iciqysgwar .gt_footnotes {
 color: #333333;
 background-color: #FFFFFF;
 border-bottom-style: none;
@@ -3859,7 +3860,7 @@ border-right-style: none;
 border-right-width: 2px;
 border-right-color: #D3D3D3;
 }
-#mtiqgghtwd .gt_footnote {
+#iciqysgwar .gt_footnote {
 margin: 0px;
 font-size: 90%;
 padding-top: 4px;
@@ -3867,7 +3868,7 @@ padding-bottom: 4px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#mtiqgghtwd .gt_sourcenotes {
+#iciqysgwar .gt_sourcenotes {
 color: #333333;
 background-color: #FFFFFF;
 border-bottom-style: none;
@@ -3880,64 +3881,64 @@ border-right-style: none;
 border-right-width: 2px;
 border-right-color: #D3D3D3;
 }
-#mtiqgghtwd .gt_sourcenote {
+#iciqysgwar .gt_sourcenote {
 font-size: 90%;
 padding-top: 4px;
 padding-bottom: 4px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#mtiqgghtwd .gt_left {
+#iciqysgwar .gt_left {
 text-align: left;
 }
-#mtiqgghtwd .gt_center {
+#iciqysgwar .gt_center {
 text-align: center;
 }
-#mtiqgghtwd .gt_right {
+#iciqysgwar .gt_right {
 text-align: right;
 font-variant-numeric: tabular-nums;
 }
-#mtiqgghtwd .gt_font_normal {
+#iciqysgwar .gt_font_normal {
 font-weight: normal;
 }
-#mtiqgghtwd .gt_font_bold {
+#iciqysgwar .gt_font_bold {
 font-weight: bold;
 }
-#mtiqgghtwd .gt_font_italic {
+#iciqysgwar .gt_font_italic {
 font-style: italic;
 }
-#mtiqgghtwd .gt_super {
+#iciqysgwar .gt_super {
 font-size: 65%;
 }
-#mtiqgghtwd .gt_footnote_marks {
+#iciqysgwar .gt_footnote_marks {
 font-size: 75%;
 vertical-align: 0.4em;
 position: initial;
 }
-#mtiqgghtwd .gt_asterisk {
+#iciqysgwar .gt_asterisk {
 font-size: 100%;
 vertical-align: 0;
 }
-#mtiqgghtwd .gt_indent_1 {
+#iciqysgwar .gt_indent_1 {
 text-indent: 5px;
 }
-#mtiqgghtwd .gt_indent_2 {
+#iciqysgwar .gt_indent_2 {
 text-indent: 10px;
 }
-#mtiqgghtwd .gt_indent_3 {
+#iciqysgwar .gt_indent_3 {
 text-indent: 15px;
 }
-#mtiqgghtwd .gt_indent_4 {
+#iciqysgwar .gt_indent_4 {
 text-indent: 20px;
 }
-#mtiqgghtwd .gt_indent_5 {
+#iciqysgwar .gt_indent_5 {
 text-indent: 25px;
 }
-#mtiqgghtwd .katex-display {
+#iciqysgwar .katex-display {
 display: inline-flex !important;
 margin-bottom: 0.75em !important;
 }
-#mtiqgghtwd div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#iciqysgwar div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
 height: 0px !important;
 }
 </style>
@@ -4136,8 +4137,8 @@ signifies the importance of drafting a Late TE for roster points.</p>
 <p>To quantify the individual impact of each positional draft strategy
 on total roster points, we fit a linear model with roster points as the
 outcome and the strategy types for each position as predictors. This
-approad allows us to estimate the marginal effect of each stragy while
-adjusting for others.</p>
+approach allows us to estimate the marginal effect of each strategy
+while adjusting for others.</p>
 <p>The intercept group is made of Balanced WR, Balanced RB, Elite QB,
 and Elite TE. The linear model suggests that the strongest strategy last
 year was Heavy RB, Hero WR, Elite QB, and Late TE.</p>
@@ -4147,26 +4148,27 @@ year was Heavy RB, Hero WR, Elite QB, and Late TE.</p>
 <h1>6) Final Conclusions / Discussion</h1>
 <p>Through all of the analysis, it has become clear what the best
 strategy was last year. Drafting a WR and RB in the first two rounds,
-draft 2 RBs and a QB in the next 3 rounds, and finally draft a TE after
-round 7. What does this suggest? I have one or two explanations for this
-trend last year. Firstly, RBs are way less volatile than WRs. Drafting
-many RBs ensures constant production. Although they may not have
-explosive games like WRs, they can be relied on to produce week in and
-week out. High tier WRs also spent more time injured than RBs. Secondly,
-fantasy managers are overestimating the value of WRs. Underdog Fantasy
-Best Ball Mania is in a half-PPR format. I’d like to believe that most
-users are more familiar in PPR formats, thus having the same bias
-heading into Best Ball Mania. Take a team that drafted Justin Jefferson.
-He had 100 catches last season. In a PPR league, that is an extra 50
-points compared to a half-PPR league like underdog. If Best Ball Mania
-was PPR, WR Heavy teams would most likely shoot past all other teams,
-but it’s not a PPR league. There is an argument to be made that RBs like
-De’Von Achane and Bijan Robinson would also benefit from being in a PPR
-league. Sure, but Achane and Bijan Robinson make up 2 of the top 3 RBs
-in receptions last year and they were 25th and 51st in receptions for
-all receptions. Thus, it would be hard for each team in a 12 man league
-not to have a top 50 receiver in receptions and each team would make a
-jump by 50 points by having just one top receiver.</p>
+draft 2 RBs and a QB in the next 3 rounds, and finally draft your first
+TE after round 7. What does this suggest? I have one or two explanations
+for this trend last year. Firstly, RBs are way less volatile than WRs.
+Drafting many RBs ensures constant production. Although they may not
+have explosive games like WRs, they can be relied on to produce week in
+and week out. High tier WRs also spent more time injured than RBs.
+Secondly, fantasy managers are overestimating the value of WRs. Underdog
+Fantasy Best Ball Mania is in a half-PPR format. I’d like to believe
+that most users are more familiar in PPR formats, thus having the same
+bias heading into Best Ball Mania. Take a team that drafted Justin
+Jefferson. He had 100 catches last season. In a PPR league, that is an
+extra 50 points compared to a half-PPR league like Underdog. If Best
+Ball Mania was PPR, WR Heavy teams would most likely shoot past all
+other teams, but it’s not a PPR league. There is an argument to be made
+that RBs like De’Von Achane and Bijan Robinson would also benefit from
+being in a PPR league. Sure, but Achane and Bijan Robinson make up 2 of
+the top 3 RBs in receptions last year and they were 25th and 51st in
+receptions out of all position groups. Thus, it would be hard for each
+team in a 12 man league not to have a top 50 receiver in receptions and
+each team would make a jump by at least 50 points by having just one top
+50 receiver.</p>
 <p>What should you do in your next best ball draft? It’s always hard to
 say since luck plays a lot into these kinds of things. My recommendation
 is to follow what last year’s trends say. I highly doubt that all of a
@@ -4180,24 +4182,38 @@ will set you up to have consistent production throughout the season.</p>
 a waiver wire? It depends. If you are taking part in a half-PPR league,
 drafting RBs if they’re good value can be promising. At the same time,
 you will have access to the waivers, so there is less pressure in making
-sure your starting RBs are the best. In a full-PPR league, definitely
-look towards grabbing those elite WRs in the early rounds. Switching
-from half-PPR to full-PPR is a huge swing in balance for RBs and WRs.
-Taking advantage of that fact is crucial for your draft strategy.</p>
+sure your starting RBs are the best like in a Best Ball. In a full-PPR
+league, definitely look towards grabbing those elite WRs in the early
+rounds. Switching from half-PPR to full-PPR is a huge swing in balance
+for RBs and WRs. Taking advantage of that fact is crucial for your draft
+strategy.</p>
 <p>Tight ends with higher ADP performed below their expected rank. Sam
-LaPorta, Travis Kelce, and Mark Andrews under performed their projects,
-and they were also the most commonly drafted before round 5. If they
-were to perform to their projection, I could easily believe Elite TE
-could be a better strategy. However, drafting a TE and having them
-perform to their rank I believe is more difficult than waiting for a
-later round TE and expecting them to outpeform their rank.</p>
+LaPorta, Travis Kelce, and Mark Andrews under performed their
+projections, and they were also the most commonly drafted before round
+5. If they were to perform to their projection, I could easily believe
+Elite TE could be a better strategy. However, drafting an Elite TE and
+having them perform to their rank I believe is more difficult than
+waiting for a later round TE and expecting them to outperform their
+rank.</p>
+<p>With that being said, I’d expect WR and RB impact to stay consistent
+year over year. Until Underdog Fantasy users realize that RBs are way
+more valuable in half-PPR, RBs will continue getting the edge throughout
+the season. QBs I imagine will stay relatively the same. I believe they
+are the most consistent position group, so drafting a high-value or
+low-value QB will give you about the results they are projected most
+times. TEs are a little more tricky. The numbers somewhat support that
+higher end TEs didn’t perform to their projections, and that really hurt
+users teams. That fact, however, can definitely change from year to
+year. Is it worth gambling on that fact or better just to grab a
+different position that is more consistent?</p>
 <p>Future work for next year would include doing a deeper dive into the
 different stacking strategies. I believe that they could prove to be
-very beneficial when draft high caliber combos. Also, determining the
-amount of each position group can prove to be insightful. For position
-groups like TE and QB, most drafts only draft 2-3 each of those
-positions. Having an injury to either group can severely hinder
-performance as there are less players to pick from for points.</p>
+very beneficial when drafting high caliber combinations. Also,
+determining the amount of each position group can prove to be
+insightful. For position groups like TE and QB, most managers only draft
+2-3 each of those positions. Having an injury to either group can
+severely hinder performance as there are less players to pick from for
+points.</p>
 </div>
 <div id="quick-points" class="section level1">
 <h1>7) Quick Points</h1>
@@ -4223,7 +4239,8 @@ groups.</li>
 fun experience compiling and diving into the different draft strategies
 <a href="https://underdognetwork.com/football/best-ball-research/best-ball-mania-v-downloadable-pick-by-pick-data-2024" class="uri">https://underdognetwork.com/football/best-ball-research/best-ball-mania-v-downloadable-pick-by-pick-data-2024</a>.
 Thank you to sports reference for providing fantasy football
-spreadsheets as well which were used in some of the data compilation (<a href="https://www.pro-football-reference.com/years/2024/fantasy.htm" class="uri">https://www.pro-football-reference.com/years/2024/fantasy.htm</a>).</p>
+spreadsheets as well which were used in some of the data compilation (<a href="https://www.pro-football-reference.com/years/2024/fantasy.htm" class="uri">https://www.pro-football-reference.com/years/2024/fantasy.htm</a>).
+Huge thanks to Logan McDaniel for helping me.</p>
 </div>
 
 
